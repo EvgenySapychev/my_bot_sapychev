@@ -10,21 +10,21 @@ if not BOT_TOKEN:
     raise RuntimeError("Переменная окружения BOT_TOKEN не задана. Выполни: export BOT_TOKEN='тут_токен'")
 
 # Настройка словаря магазинов -> локальные файлы (в папке images/)
-BASE_IMG_DIR = Path(__file__).parent / "image"
+BASE_IMG_DIR = Path(__file__).parent / "images"
 STORES = {
-    "X5": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/X5.jpg",
-    "Магнит": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/MAGNIT.jpg",
-    "Фамилия": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/FAMILIA.jpg",
-    "GJ": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/GJ.jpg",
-    "Kari": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/KARI.jpg",
-    "METRO": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/METRO.jpg",
-    "Подружка": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/PODRUS.jpg",
-    "Rendez-vous": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/RANDEV.jpg",
-    "Рив Гош": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/RIVGOSH.jpg",
-    "Улыбка Радуги": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/ULIBKA_RADUGI.jpg",
-    "Винлаб": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/VINLAB.jpg",
-    "Зарина": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/ZARINA.jpg",
-    "Здрав Сити": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/ZDRAVSI.jpg",
+    "X5": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/X5.jpg",
+    "Магнит": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/MAGNIT.jpg",
+    "Фамилия": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/FAMILIA.jpg",
+    "GJ": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/GJ.jpg",
+    "Kari": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/KARI.jpg",
+    "METRO": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/METRO.jpg",
+    "Подружка": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/PODRUS.jpg",
+    "Rendez-vous": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/RANDEV.jpg",
+    "Рив Гош": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/RIVGOSH.jpg",
+    "Улыбка Радуги": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/ULIBKA_RADUGI.jpg",
+    "Винлаб": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/VINLAB.jpg",
+    "Зарина": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/ZARINA.jpg",
+    "Здрав Сити": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/images/ZDRAVSI.jpg",
     "Алёнка": BASE_IMG_DIR / "https://disk.yandex.ru/i/cRyad4sQCU6AgA"
 }
 
