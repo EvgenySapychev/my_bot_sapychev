@@ -10,7 +10,7 @@ if not BOT_TOKEN:
     raise RuntimeError("Переменная окружения BOT_TOKEN не задана. Выполни: export BOT_TOKEN='тут_токен'")
 
 # Настройка словаря магазинов -> локальные файлы (в папке images/)
-BASE_IMG_DIR = Path(__file__).parent / "images"
+BASE_IMG_DIR = Path(__file__).parent / "image"
 STORES = {
     "X5": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/X5.jpg",
     "Магнит": BASE_IMG_DIR / "/Users/esapychev/PycharmProjects/my_telegram_bot/image/MAGNIT.jpg",
